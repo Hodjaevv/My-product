@@ -910,7 +910,7 @@
       flex-direction: column;
     }
     .quick__item{
-      width: 330px;
+      width: 350px;
     }
     .right__item:nth-child(1){
       flex-direction: row;
@@ -923,7 +923,6 @@
     }
     .quick__sp-4{
       margin: 0 15px 0 0;
-      padding-top: 5px;
     }
 
     /* <CONTENTS> */
