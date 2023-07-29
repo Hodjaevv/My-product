@@ -60,11 +60,11 @@
     font-weight: 600;
     font-size: 16px;
     color: var(--6color);
-    transition: 0.5s;
+    transition: 0.3s;
   }
   .nav__link:hover {
-    color: var(--bordercolor);
-    font-size: 20px;
+    color: #819198;
+    text-decoration: underline;
   }
   .box__nav__btn {
     width: 291px;
@@ -108,9 +108,6 @@
     display: none;
   }
 
-
-    
-  
   /* </NAV> */
   
   /* <HERO> */
@@ -801,11 +798,11 @@
   margin: 0 auto;
 }
 
-  /* @media (max-width: 400px) 
+  /* @media (max-width: 428px) 
   android a10-a90, s4-s22, redmi 4-12, google pixel i5 
   apple 5s-X, 12 mini 13pro 14pro */
 
-  @media only screen and (max-width: 400px){
+  @media only screen and (max-width: 428px){
   
     /* <NAV> */
   
@@ -902,6 +899,7 @@
     /* <QUICK> */
 
     .quick__container{
+      width: 100%;
       height: 900px;
     }
     .quick__text{
@@ -912,7 +910,7 @@
       flex-direction: column;
     }
     .quick__item{
-      width: 350px;
+      width: 330px;
     }
     .right__item:nth-child(1){
       flex-direction: row;
@@ -988,6 +986,7 @@
       flex-direction: column;
     }
     .join__box__text{
+      width: 100%;
       padding: 22px;
     }
     .join__box__text h2{
@@ -1035,4 +1034,33 @@
       margin-bottom: 20px;
     }
   }
-  
+  @media (max-width: 360px) {
+    .hero__text h1{
+      width: 320px;
+    }
+    .hero__text p{
+      width: 320px;
+    }
+    .join__box__text h2{
+      width: 270px;
+    }
+    .join__box__img img {
+      width: 320px;
+  }
+    .quick__item{
+      width: 320px;
+    }
+    .quick__item p{
+      font-size: 10px;
+    }
+    .footer__text{
+      padding-left: 0;
+    }
+    .footer__down__p p{
+      width: 300px;
+      font-size: 12px;
+    }
+    .hero__text i{
+      margin: 0 8px;
+    }
+  }
